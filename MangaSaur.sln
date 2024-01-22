@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaSaur", "MangaSaur\MangaSaur.csproj", "{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC0A4C3-8214-4DD4-A81F-E17D92FF8DEF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9916C94-E66C-4A01-8271-7B9FA98CD3DA}
+	EndGlobalSection
+EndGlobal
