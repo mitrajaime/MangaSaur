@@ -11,6 +11,7 @@ using System.Text;
 using Firebase.Firestore;
 using Firebase;
 using Java.Util;
+using Android.Graphics;
 
 namespace MangaSaur.Activities
 {
@@ -18,7 +19,7 @@ namespace MangaSaur.Activities
    
     public class RegisterActivity : Activity
     {
-        TextView btnRedirect;
+        TextView btnRedirect, textViewRegistration;
         Button btnRegister;
         EditText editTextUsername, editTextPhone, editTextPassword, editTextEmail, editTextConfirmPassword;
         FirebaseFirestore db;
@@ -30,6 +31,7 @@ namespace MangaSaur.Activities
             SetContentView(Resource.Layout.register_layout);
             db = getFireStore();
 
+            textViewRegistration = FindViewById<TextView>(Resource.Id.textViewRegistration);    
             btnRegister = FindViewById<Button>(Resource.Id.btnRegister);
             btnRedirect = FindViewById<TextView>(Resource.Id.btnRedirect);
             editTextConfirmPassword = FindViewById<EditText>(Resource.Id.editTextConfirmPassword);
@@ -40,6 +42,9 @@ namespace MangaSaur.Activities
 
             btnRedirect.Click += BtnRedirect_Click;
             btnRegister.Click += BtnRegister_Click;
+
+            Typeface tf = Typeface.CreateFromAsset(Assets, "BADABOOM.TTF");
+            textViewRegistration.SetTypeface(tf, TypefaceStyle.Normal);
 
         }
 
