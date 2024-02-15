@@ -8,6 +8,7 @@ using Firebase;
 using Firebase.Auth;
 using Firebase.Firestore;
 using Java.Util;
+using Android.Graphics;
 using MangaSaur.EventListeners;
 using MangaSaur.Helpers;
 using System;
@@ -33,7 +34,7 @@ namespace MangaSaur.Activities
             SetContentView(Resource.Layout.register_layout);
             
 
-            textViewRegistration = FindViewById<TextView>(Resource.Id.textViewRegistration);
+            textViewRegistration = FindViewById<TextView>(Resource.Id.textViewRegistration);    
             btnRegister = FindViewById<Button>(Resource.Id.btnRegister);
             btnRedirect = FindViewById<TextView>(Resource.Id.btnRedirect);
             editTextConfirmPassword = FindViewById<EditText>(Resource.Id.editTextConfirmPassword);
