@@ -34,8 +34,12 @@ namespace MangaSaur.Activities
 
             btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
             btnRedirect = FindViewById<TextView>(Resource.Id.btnRedirect);
+            editTextEmail = FindViewById<EditText>(Resource.Id.editTextEmail);
+            editTextPassword = FindViewById<EditText>(Resource.Id.editTextPassword);
+
             btnRedirect.Click += BtnRedirect_Click;
             btnLogin.Click += BtnLogin_Click;
+
 
             textViewMangaSaur = FindViewById<TextView>(Resource.Id.textViewMangaSaur);
 
@@ -46,11 +50,11 @@ namespace MangaSaur.Activities
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            //if (string.IsNullOrEmpty(editTextEmail.Text) || string.IsNullOrEmpty(editTextPassword.Text))
-            //{ 
-            //    Toast.MakeText(this, "Email or password is invalid. Please try again", ToastLength.Short).Show();
-            //    return;
-            //}
+            if (string.IsNullOrEmpty(editTextEmail.Text) || string.IsNullOrEmpty(editTextPassword.Text))
+            {
+                Toast.MakeText(this, "Email or password is invalid. Please try again", ToastLength.Short).Show();
+                return;
+            }
             auth.SignInWithEmailAndPassword(editTextEmail.Text, editTextPassword.Text)
                 .AddOnSuccessListener(taskCompletionListeners)
                 .AddOnFailureListener(taskCompletionListeners);
