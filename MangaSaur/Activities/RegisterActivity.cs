@@ -8,7 +8,6 @@ using Firebase;
 using Firebase.Auth;
 using Firebase.Firestore;
 using Java.Util;
-using Android.Graphics;
 using MangaSaur.EventListeners;
 using MangaSaur.Helpers;
 using System;
