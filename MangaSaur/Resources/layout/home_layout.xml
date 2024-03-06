@@ -8,7 +8,7 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:background="@color/abc_search_url_text_normal"
+        android:background="#d63333"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize">
 
@@ -52,7 +52,7 @@
         
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="#92AC64"
+        android:background="#cc0000"    
         android:clickable="true"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
