@@ -43,7 +43,14 @@ namespace MangaSaur.Adapters
 
             holder.textViewUserName.Text = item.Username;
             holder.textViewPostBody.Text = item.Description;
-            holder.textViewLike.Text = item.LikeCount.ToString() + " Likes";
+            if(item.LikeCount > 1)
+            {
+                holder.textViewLike.Text = item.LikeCount.ToString() + " Likes";
+            }
+            else
+            {
+                holder.textViewLike.Text = item.LikeCount.ToString() + " Like";
+            }
         }
 
         public override int ItemCount => items.Count;

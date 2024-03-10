@@ -59,7 +59,7 @@
                 
                 <ImageView
                     android:id="@+id/imageViewLike"
-                    android:src="@drawable/like_icon"
+                    android:src="@drawable/image"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_width="26dp"
@@ -67,7 +67,7 @@
 
                 <ImageView
                     android:id="@+id/imageViewComment"
-                    android:src="@drawable/chat"
+                    android:src="@drawable/image"
                     android:layout_marginLeft="20dp"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@+id/imageViewLike"
@@ -88,4 +88,3 @@
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
-
