@@ -63,12 +63,23 @@ namespace MangaSaur.Activities
                     dialog.Show();
                 }
 
-                if (id == Resource.Id.action_refresh)
+                else if (id == Resource.Id.action_refresh)
                 {
                     Toast.MakeText(this, "Refresh", ToastLength.Short).Show();
                 }
 
-                return base.OnOptionsItemSelected(item);
+                else if (id == Resource.Id.action_settings) 
+                {
+                    Toast.MakeText(this, "Settings", ToastLength.Short).Show();
+                }
+
+                else if (id == Resource.Id.action_account)
+                {
+                    Toast.MakeText(this, "Acccount", ToastLength.Short).Show();
+                }
+
+
+            return base.OnOptionsItemSelected(item);
             }
             public override bool OnCreateOptionsMenu(IMenu menu)
             {
