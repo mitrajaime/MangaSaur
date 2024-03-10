@@ -16,6 +16,10 @@ using System.Linq;
 using System.Text;
 using AlertDialog = AndroidX.AppCompat.App.AlertDialog;
 using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
+using RecyclerView = AndroidX.RecyclerView.Widget.RecyclerView;
+using MangaSaur.Adapters;
+using MangaSaur.DataModels;
+using AndroidX.RecyclerView.Widget;
 
 namespace MangaSaur.Activities
 {
@@ -25,6 +29,9 @@ namespace MangaSaur.Activities
             Toolbar toolbar;
             FirebaseAuth auth;
             AppDataHelper aph = new AppDataHelper();
+            RecyclerView postRecyclerView;
+            PostAdapter postAdapter;
+            List<Post> postList = new List<Post>();
             protected override void OnCreate(Bundle savedInstanceState)
             {
                 base.OnCreate(savedInstanceState);
@@ -35,6 +42,11 @@ namespace MangaSaur.Activities
 
                 SetSupportActionBar(toolbar);
                 auth = aph.getFireBaseAuth();
+
+                postRecyclerView = FindViewById<RecyclerView>(Resource.Id.postRecyclerView);
+
+                createData();
+                SetUpRecyclerView();
             }
 
             public override bool OnOptionsItemSelected(IMenuItem item)
@@ -81,10 +93,41 @@ namespace MangaSaur.Activities
 
             return base.OnOptionsItemSelected(item);
             }
+
             public override bool OnCreateOptionsMenu(IMenu menu)
             {
                 MenuInflater.Inflate(Resource.Menu.feed_menu, menu);
                 return true;
+            }
+
+        // Adding Static Data to Post
+            void createData()
+            {
+                postList.Add(new Post
+                {
+                    Description = "Anita Max Wynn",
+                    Username = "Drake",
+                    LikeCount = 12130
+                });
+                postList.Add(new Post
+                {
+                    Description = "FLY HGIH ACT WOOHOO YEAH",
+                    Username = "Fitzgerald Varga",
+                    LikeCount = 120
+                });
+                postList.Add(new Post
+                {
+                    Description = "Kaila ka Shimo te? Kanang kontra ni Godzilla-",
+                    Username = "Seth Zafra",
+                    LikeCount = 0
+                });
+            }
+            
+            void SetUpRecyclerView()
+            {
+                postRecyclerView.SetLayoutManager(new AndroidX.RecyclerView.Widget.LinearLayoutManager(postRecyclerView.Context));
+                postAdapter = new PostAdapter(postList);
+                postRecyclerView.SetAdapter(postAdapter);
             }
         }
         

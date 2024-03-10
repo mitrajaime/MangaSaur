@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2dp"
+    android:paddingTop="16dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="290dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,7 +13,7 @@
 
         <ImageView
             android:id="@+id/imageViewPicture"
-            android:src="@drawable/picture"
+            android:src="@drawable/image"
             android:layout_width="match_parent"
             android:layout_height="143dp"
             android:scaleType="centerCrop"
@@ -23,11 +25,66 @@
             android:orientation="vertical">
 
             <TextView
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:textSize="16sp"
-                     android:layout_marginTop="16dp"/>
+                android:id="@+id/textViewUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Jaime Mitra"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/textViewPostBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Lorem Ipsum chuchuchuchu"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+                
+                <ImageView
+                    android:id="@+id/imageViewLike"
+                    android:src="@drawable/comment_icon"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+
+                <ImageView
+                    android:id="@+id/imageViewComment"
+                    android:src="@drawable/image"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/imageViewLike"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+                
+                <TextView
+                    android:id="@+id/textViewLike"
+                    android:text="1969 likes"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
