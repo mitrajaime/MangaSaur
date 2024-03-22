@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#d63333"
+        android:elevation="4dp"/>
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/curved_edges"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:id="@id/imageViewPost"
+                android:layout_centerInParent="true"
+                android:layout_margin="1dp"
+                android:scaleType="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gallery_white"/>
+
+            
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="What is on your mind?"
+            android:layout_height="wrap_content"/>
+        <EditText
+                android:id="@+id/editTextPost"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:gravity="start"
+                android:background="@drawable/curved_edges"
+                android:padding="1dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="Create Post"
+                android:layout_marginBottom="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/curved_edges"
+                android:layout_height="40dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -14,7 +14,7 @@ namespace MangaSaur
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.2.120")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.1.111")]
 	public partial class Resource
 	{
 		
@@ -25,6 +25,210 @@ namespace MangaSaur
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.Media.Resource.Attribute.alpha = global::MangaSaur.Resource.Attribute.alpha;
+			global::Plugin.Media.Resource.Attribute.font = global::MangaSaur.Resource.Attribute.font;
+			global::Plugin.Media.Resource.Attribute.fontProviderAuthority = global::MangaSaur.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Media.Resource.Attribute.fontProviderCerts = global::MangaSaur.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchStrategy = global::MangaSaur.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchTimeout = global::MangaSaur.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Attribute.fontProviderPackage = global::MangaSaur.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Media.Resource.Attribute.fontProviderQuery = global::MangaSaur.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Media.Resource.Attribute.fontProviderSystemFontFamily = global::MangaSaur.Resource.Attribute.fontProviderSystemFontFamily;
+			global::Plugin.Media.Resource.Attribute.fontStyle = global::MangaSaur.Resource.Attribute.fontStyle;
+			global::Plugin.Media.Resource.Attribute.fontVariationSettings = global::MangaSaur.Resource.Attribute.fontVariationSettings;
+			global::Plugin.Media.Resource.Attribute.fontWeight = global::MangaSaur.Resource.Attribute.fontWeight;
+			global::Plugin.Media.Resource.Attribute.nestedScrollViewStyle = global::MangaSaur.Resource.Attribute.nestedScrollViewStyle;
+			global::Plugin.Media.Resource.Attribute.queryPatterns = global::MangaSaur.Resource.Attribute.queryPatterns;
+			global::Plugin.Media.Resource.Attribute.shortcutMatchRequired = global::MangaSaur.Resource.Attribute.shortcutMatchRequired;
+			global::Plugin.Media.Resource.Attribute.ttcIndex = global::MangaSaur.Resource.Attribute.ttcIndex;
+			global::Plugin.Media.Resource.Color.androidx_core_ripple_material_light = global::MangaSaur.Resource.Color.androidx_core_ripple_material_light;
+			global::Plugin.Media.Resource.Color.androidx_core_secondary_text_default_material_light = global::MangaSaur.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Plugin.Media.Resource.Color.browser_actions_bg_grey = global::MangaSaur.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.Media.Resource.Color.browser_actions_divider_color = global::MangaSaur.Resource.Color.browser_actions_divider_color;
+			global::Plugin.Media.Resource.Color.browser_actions_text_color = global::MangaSaur.Resource.Color.browser_actions_text_color;
+			global::Plugin.Media.Resource.Color.browser_actions_title_color = global::MangaSaur.Resource.Color.browser_actions_title_color;
+			global::Plugin.Media.Resource.Color.notification_action_color_filter = global::MangaSaur.Resource.Color.notification_action_color_filter;
+			global::Plugin.Media.Resource.Color.notification_icon_bg_color = global::MangaSaur.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_max_width = global::MangaSaur.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_min_padding = global::MangaSaur.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_horizontal_material = global::MangaSaur.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_vertical_material = global::MangaSaur.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_horizontal_material = global::MangaSaur.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_vertical_material = global::MangaSaur.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_control_corner_material = global::MangaSaur.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_height = global::MangaSaur.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_width = global::MangaSaur.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.Media.Resource.Dimension.notification_action_icon_size = global::MangaSaur.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_action_text_size = global::MangaSaur.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Media.Resource.Dimension.notification_big_circle_margin = global::MangaSaur.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Media.Resource.Dimension.notification_content_margin_start = global::MangaSaur.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_height = global::MangaSaur.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_width = global::MangaSaur.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Media.Resource.Dimension.notification_main_column_padding_top = global::MangaSaur.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_media_narrow_margin = global::MangaSaur.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Media.Resource.Dimension.notification_right_icon_size = global::MangaSaur.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_right_side_padding_top = global::MangaSaur.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_background_padding = global::MangaSaur.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_size_as_large = global::MangaSaur.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Media.Resource.Dimension.notification_subtext_size = global::MangaSaur.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad = global::MangaSaur.Resource.Dimension.notification_top_pad;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad_large_text = global::MangaSaur.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Media.Resource.Drawable.notification_action_background = global::MangaSaur.Resource.Drawable.notification_action_background;
+			global::Plugin.Media.Resource.Drawable.notification_bg = global::MangaSaur.Resource.Drawable.notification_bg;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low = global::MangaSaur.Resource.Drawable.notification_bg_low;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_normal = global::MangaSaur.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_pressed = global::MangaSaur.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal = global::MangaSaur.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal_pressed = global::MangaSaur.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_icon_background = global::MangaSaur.Resource.Drawable.notification_icon_background;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_bg = global::MangaSaur.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_low_bg = global::MangaSaur.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Media.Resource.Drawable.notification_tile_bg = global::MangaSaur.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Media.Resource.Drawable.notify_panel_notification_icon_bg = global::MangaSaur.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Media.Resource.Id.accessibility_action_clickable_span = global::MangaSaur.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_0 = global::MangaSaur.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_1 = global::MangaSaur.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_10 = global::MangaSaur.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_11 = global::MangaSaur.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_12 = global::MangaSaur.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_13 = global::MangaSaur.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_14 = global::MangaSaur.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_15 = global::MangaSaur.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_16 = global::MangaSaur.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_17 = global::MangaSaur.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_18 = global::MangaSaur.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_19 = global::MangaSaur.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_2 = global::MangaSaur.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_20 = global::MangaSaur.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_21 = global::MangaSaur.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_22 = global::MangaSaur.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_23 = global::MangaSaur.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_24 = global::MangaSaur.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_25 = global::MangaSaur.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_26 = global::MangaSaur.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_27 = global::MangaSaur.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_28 = global::MangaSaur.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_29 = global::MangaSaur.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_3 = global::MangaSaur.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_30 = global::MangaSaur.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_31 = global::MangaSaur.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_4 = global::MangaSaur.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_5 = global::MangaSaur.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_6 = global::MangaSaur.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_7 = global::MangaSaur.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_8 = global::MangaSaur.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.Media.Resource.Id.accessibility_custom_action_9 = global::MangaSaur.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.Media.Resource.Id.actions = global::MangaSaur.Resource.Id.actions;
+			global::Plugin.Media.Resource.Id.action_container = global::MangaSaur.Resource.Id.action_container;
+			global::Plugin.Media.Resource.Id.action_divider = global::MangaSaur.Resource.Id.action_divider;
+			global::Plugin.Media.Resource.Id.action_image = global::MangaSaur.Resource.Id.action_image;
+			global::Plugin.Media.Resource.Id.action_text = global::MangaSaur.Resource.Id.action_text;
+			global::Plugin.Media.Resource.Id.async = global::MangaSaur.Resource.Id.async;
+			global::Plugin.Media.Resource.Id.blocking = global::MangaSaur.Resource.Id.blocking;
+			global::Plugin.Media.Resource.Id.browser_actions_header_text = global::MangaSaur.Resource.Id.browser_actions_header_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_items = global::MangaSaur.Resource.Id.browser_actions_menu_items;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_icon = global::MangaSaur.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_text = global::MangaSaur.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_view = global::MangaSaur.Resource.Id.browser_actions_menu_view;
+			global::Plugin.Media.Resource.Id.chronometer = global::MangaSaur.Resource.Id.chronometer;
+			global::Plugin.Media.Resource.Id.dialog_button = global::MangaSaur.Resource.Id.dialog_button;
+			global::Plugin.Media.Resource.Id.forever = global::MangaSaur.Resource.Id.forever;
+			global::Plugin.Media.Resource.Id.icon = global::MangaSaur.Resource.Id.icon;
+			global::Plugin.Media.Resource.Id.icon_group = global::MangaSaur.Resource.Id.icon_group;
+			global::Plugin.Media.Resource.Id.info = global::MangaSaur.Resource.Id.info;
+			global::Plugin.Media.Resource.Id.italic = global::MangaSaur.Resource.Id.italic;
+			global::Plugin.Media.Resource.Id.line1 = global::MangaSaur.Resource.Id.line1;
+			global::Plugin.Media.Resource.Id.line3 = global::MangaSaur.Resource.Id.line3;
+			global::Plugin.Media.Resource.Id.normal = global::MangaSaur.Resource.Id.normal;
+			global::Plugin.Media.Resource.Id.notification_background = global::MangaSaur.Resource.Id.notification_background;
+			global::Plugin.Media.Resource.Id.notification_main_column = global::MangaSaur.Resource.Id.notification_main_column;
+			global::Plugin.Media.Resource.Id.notification_main_column_container = global::MangaSaur.Resource.Id.notification_main_column_container;
+			global::Plugin.Media.Resource.Id.right_icon = global::MangaSaur.Resource.Id.right_icon;
+			global::Plugin.Media.Resource.Id.right_side = global::MangaSaur.Resource.Id.right_side;
+			global::Plugin.Media.Resource.Id.tag_accessibility_actions = global::MangaSaur.Resource.Id.tag_accessibility_actions;
+			global::Plugin.Media.Resource.Id.tag_accessibility_clickable_spans = global::MangaSaur.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.Media.Resource.Id.tag_accessibility_heading = global::MangaSaur.Resource.Id.tag_accessibility_heading;
+			global::Plugin.Media.Resource.Id.tag_accessibility_pane_title = global::MangaSaur.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.Media.Resource.Id.tag_on_apply_window_listener = global::MangaSaur.Resource.Id.tag_on_apply_window_listener;
+			global::Plugin.Media.Resource.Id.tag_on_receive_content_listener = global::MangaSaur.Resource.Id.tag_on_receive_content_listener;
+			global::Plugin.Media.Resource.Id.tag_on_receive_content_mime_types = global::MangaSaur.Resource.Id.tag_on_receive_content_mime_types;
+			global::Plugin.Media.Resource.Id.tag_screen_reader_focusable = global::MangaSaur.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.Media.Resource.Id.tag_state_description = global::MangaSaur.Resource.Id.tag_state_description;
+			global::Plugin.Media.Resource.Id.tag_transition_group = global::MangaSaur.Resource.Id.tag_transition_group;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_event_manager = global::MangaSaur.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_listeners = global::MangaSaur.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.Media.Resource.Id.tag_window_insets_animation_callback = global::MangaSaur.Resource.Id.tag_window_insets_animation_callback;
+			global::Plugin.Media.Resource.Id.text = global::MangaSaur.Resource.Id.text;
+			global::Plugin.Media.Resource.Id.text2 = global::MangaSaur.Resource.Id.text2;
+			global::Plugin.Media.Resource.Id.time = global::MangaSaur.Resource.Id.time;
+			global::Plugin.Media.Resource.Id.title = global::MangaSaur.Resource.Id.title;
+			global::Plugin.Media.Resource.Id.view_tree_lifecycle_owner = global::MangaSaur.Resource.Id.view_tree_lifecycle_owner;
+			global::Plugin.Media.Resource.Integer.status_bar_notification_info_maxnum = global::MangaSaur.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::MangaSaur.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::MangaSaur.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Media.Resource.Layout.custom_dialog = global::MangaSaur.Resource.Layout.custom_dialog;
+			global::Plugin.Media.Resource.Layout.notification_action = global::MangaSaur.Resource.Layout.notification_action;
+			global::Plugin.Media.Resource.Layout.notification_action_tombstone = global::MangaSaur.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Media.Resource.Layout.notification_template_custom_big = global::MangaSaur.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Media.Resource.Layout.notification_template_icon_group = global::MangaSaur.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Media.Resource.Layout.notification_template_part_chronometer = global::MangaSaur.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Media.Resource.Layout.notification_template_part_time = global::MangaSaur.Resource.Layout.notification_template_part_time;
+			global::Plugin.Media.Resource.String.copy_toast_msg = global::MangaSaur.Resource.String.copy_toast_msg;
+			global::Plugin.Media.Resource.String.fallback_menu_item_copy_link = global::MangaSaur.Resource.String.fallback_menu_item_copy_link;
+			global::Plugin.Media.Resource.String.fallback_menu_item_open_in_browser = global::MangaSaur.Resource.String.fallback_menu_item_open_in_browser;
+			global::Plugin.Media.Resource.String.fallback_menu_item_share_link = global::MangaSaur.Resource.String.fallback_menu_item_share_link;
+			global::Plugin.Media.Resource.String.status_bar_notification_info_overflow = global::MangaSaur.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification = global::MangaSaur.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Info = global::MangaSaur.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MangaSaur.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Time = global::MangaSaur.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Title = global::MangaSaur.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionContainer = global::MangaSaur.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionText = global::MangaSaur.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Media.Resource.Styleable.Capability = global::MangaSaur.Resource.Styleable.Capability;
+			global::Plugin.Media.Resource.Styleable.Capability_queryPatterns = global::MangaSaur.Resource.Styleable.Capability_queryPatterns;
+			global::Plugin.Media.Resource.Styleable.Capability_shortcutMatchRequired = global::MangaSaur.Resource.Styleable.Capability_shortcutMatchRequired;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem = global::MangaSaur.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_alpha = global::MangaSaur.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_alpha = global::MangaSaur.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_color = global::MangaSaur.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Media.Resource.Styleable.FontFamily = global::MangaSaur.Resource.Styleable.FontFamily;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont = global::MangaSaur.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_font = global::MangaSaur.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MangaSaur.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MangaSaur.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MangaSaur.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MangaSaur.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_font = global::MangaSaur.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontStyle = global::MangaSaur.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MangaSaur.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontWeight = global::MangaSaur.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_ttcIndex = global::MangaSaur.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderAuthority = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderCerts = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderPackage = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderQuery = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::MangaSaur.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
+			global::Plugin.Media.Resource.Styleable.GradientColor = global::MangaSaur.Resource.Styleable.GradientColor;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem = global::MangaSaur.Resource.Styleable.GradientColorItem;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_color = global::MangaSaur.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_offset = global::MangaSaur.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerColor = global::MangaSaur.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerX = global::MangaSaur.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerY = global::MangaSaur.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endColor = global::MangaSaur.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endX = global::MangaSaur.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endY = global::MangaSaur.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_gradientRadius = global::MangaSaur.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startColor = global::MangaSaur.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startX = global::MangaSaur.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startY = global::MangaSaur.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::MangaSaur.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::MangaSaur.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Xml.image_share_filepaths = global::MangaSaur.Resource.Xml.image_share_filepaths;
+			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MangaSaur.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MangaSaur.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MangaSaur.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MangaSaur.Resource.Attribute.fontProviderAuthority;
@@ -4761,130 +4965,133 @@ namespace MangaSaur
 			public const int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int custom_dialog = 2131427360;
+			public const int create_post = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_navigation_item = 2131427361;
+			public const int custom_dialog = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_bottom_sheet_dialog = 2131427362;
+			public const int design_bottom_navigation_item = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar = 2131427363;
+			public const int design_bottom_sheet_dialog = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_snackbar_include = 2131427364;
+			public const int design_layout_snackbar = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_icon = 2131427365;
+			public const int design_layout_snackbar_include = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_tab_text = 2131427366;
+			public const int design_layout_tab_icon = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_menu_item_action_area = 2131427367;
+			public const int design_layout_tab_text = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item = 2131427368;
+			public const int design_menu_item_action_area = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_header = 2131427369;
+			public const int design_navigation_item = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_separator = 2131427370;
+			public const int design_navigation_item_header = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_subheader = 2131427371;
+			public const int design_navigation_item_separator = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu = 2131427372;
+			public const int design_navigation_item_subheader = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_menu_item = 2131427373;
+			public const int design_navigation_menu = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_password_icon = 2131427374;
+			public const int design_navigation_menu_item = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int home_layout = 2131427375;
+			public const int design_text_input_password_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int ime_base_split_test_activity = 2131427376;
+			public const int home_layout = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int ime_secondary_split_test_activity = 2131427377;
+			public const int ime_base_split_test_activity = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int login_layout = 2131427378;
+			public const int ime_secondary_split_test_activity = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mtrl_layout_snackbar = 2131427379;
+			public const int login_layout = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mtrl_layout_snackbar_include = 2131427380;
+			public const int mtrl_layout_snackbar = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_action = 2131427381;
+			public const int mtrl_layout_snackbar_include = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_action_tombstone = 2131427382;
+			public const int notification_action = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_media_action = 2131427383;
+			public const int notification_action_tombstone = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_media_cancel_action = 2131427384;
+			public const int notification_media_action = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_big_media = 2131427385;
+			public const int notification_media_cancel_action = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_big_media_custom = 2131427386;
+			public const int notification_template_big_media = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_big_media_narrow = 2131427387;
+			public const int notification_template_big_media_custom = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_big_media_narrow_custom = 2131427388;
+			public const int notification_template_big_media_narrow = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_custom_big = 2131427389;
+			public const int notification_template_big_media_narrow_custom = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_icon_group = 2131427390;
+			public const int notification_template_custom_big = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int notification_template_lines_media = 2131427391;
+			public const int notification_template_icon_group = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_template_media = 2131427392;
+			public const int notification_template_lines_media = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int notification_template_media_custom = 2131427393;
+			public const int notification_template_media = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_template_part_chronometer = 2131427394;
+			public const int notification_template_media_custom = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_template_part_time = 2131427395;
+			public const int notification_template_part_chronometer = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int post = 2131427396;
+			public const int notification_template_part_time = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int register_layout = 2131427397;
+			public const int post = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int select_dialog_item_material = 2131427398;
+			public const int register_layout = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int select_dialog_multichoice_material = 2131427399;
+			public const int select_dialog_item_material = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int select_dialog_singlechoice_material = 2131427400;
+			public const int select_dialog_multichoice_material = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int support_simple_spinner_dropdown_item = 2131427401;
+			public const int select_dialog_singlechoice_material = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int support_simple_spinner_dropdown_item = 2131427402;
 			
 			static Layout()
 			{
@@ -6130,68 +6337,68 @@ namespace MangaSaur
 			// aapt resource value: 0x7F100139
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131755321;
 			
-			// aapt resource value: 0x7F10016B
-			public const int ThemeOverlay_AppCompat = 2131755371;
-			
 			// aapt resource value: 0x7F10016C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131755372;
+			public const int ThemeOverlay_AppCompat = 2131755372;
 			
 			// aapt resource value: 0x7F10016D
-			public const int ThemeOverlay_AppCompat_Dark = 2131755373;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131755373;
 			
 			// aapt resource value: 0x7F10016E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131755374;
+			public const int ThemeOverlay_AppCompat_Dark = 2131755374;
 			
 			// aapt resource value: 0x7F10016F
-			public const int ThemeOverlay_AppCompat_DayNight = 2131755375;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131755375;
 			
 			// aapt resource value: 0x7F100170
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131755376;
+			public const int ThemeOverlay_AppCompat_DayNight = 2131755376;
 			
 			// aapt resource value: 0x7F100171
-			public const int ThemeOverlay_AppCompat_Dialog = 2131755377;
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131755377;
 			
 			// aapt resource value: 0x7F100172
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131755378;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131755378;
 			
 			// aapt resource value: 0x7F100173
-			public const int ThemeOverlay_AppCompat_Light = 2131755379;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131755379;
 			
 			// aapt resource value: 0x7F100174
-			public const int ThemeOverlay_MaterialComponents = 2131755380;
+			public const int ThemeOverlay_AppCompat_Light = 2131755380;
 			
 			// aapt resource value: 0x7F100175
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131755381;
+			public const int ThemeOverlay_MaterialComponents = 2131755381;
 			
 			// aapt resource value: 0x7F100176
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131755382;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131755382;
 			
 			// aapt resource value: 0x7F100177
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131755383;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131755383;
 			
 			// aapt resource value: 0x7F100178
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131755384;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131755384;
 			
 			// aapt resource value: 0x7F100179
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131755385;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131755385;
 			
 			// aapt resource value: 0x7F10017A
-			public const int ThemeOverlay_MaterialComponents_Light = 2131755386;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131755386;
 			
 			// aapt resource value: 0x7F10017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131755387;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131755387;
 			
 			// aapt resource value: 0x7F10017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131755388;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131755388;
 			
 			// aapt resource value: 0x7F10017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755389;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131755389;
 			
 			// aapt resource value: 0x7F10017E
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131755390;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755390;
 			
 			// aapt resource value: 0x7F10017F
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755391;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131755391;
+			
+			// aapt resource value: 0x7F100180
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755392;
 			
 			// aapt resource value: 0x7F10013A
 			public const int Theme_AppCompat = 2131755322;
@@ -6340,371 +6547,374 @@ namespace MangaSaur
 			// aapt resource value: 0x7F10016A
 			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131755370;
 			
-			// aapt resource value: 0x7F100180
-			public const int Widget_AppCompat_ActionBar = 2131755392;
+			// aapt resource value: 0x7F10016B
+			public const int Theme_PlayCore_Transparent = 2131755371;
 			
 			// aapt resource value: 0x7F100181
-			public const int Widget_AppCompat_ActionBar_Solid = 2131755393;
+			public const int Widget_AppCompat_ActionBar = 2131755393;
 			
 			// aapt resource value: 0x7F100182
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131755394;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131755394;
 			
 			// aapt resource value: 0x7F100183
-			public const int Widget_AppCompat_ActionBar_TabText = 2131755395;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131755395;
 			
 			// aapt resource value: 0x7F100184
-			public const int Widget_AppCompat_ActionBar_TabView = 2131755396;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131755396;
 			
 			// aapt resource value: 0x7F100185
-			public const int Widget_AppCompat_ActionButton = 2131755397;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131755397;
 			
 			// aapt resource value: 0x7F100186
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755398;
+			public const int Widget_AppCompat_ActionButton = 2131755398;
 			
 			// aapt resource value: 0x7F100187
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131755399;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131755399;
 			
 			// aapt resource value: 0x7F100188
-			public const int Widget_AppCompat_ActionMode = 2131755400;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131755400;
 			
 			// aapt resource value: 0x7F100189
-			public const int Widget_AppCompat_ActivityChooserView = 2131755401;
+			public const int Widget_AppCompat_ActionMode = 2131755401;
 			
 			// aapt resource value: 0x7F10018A
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131755402;
+			public const int Widget_AppCompat_ActivityChooserView = 2131755402;
 			
 			// aapt resource value: 0x7F10018B
-			public const int Widget_AppCompat_Button = 2131755403;
-			
-			// aapt resource value: 0x7F100191
-			public const int Widget_AppCompat_ButtonBar = 2131755409;
-			
-			// aapt resource value: 0x7F100192
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755410;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131755403;
 			
 			// aapt resource value: 0x7F10018C
-			public const int Widget_AppCompat_Button_Borderless = 2131755404;
+			public const int Widget_AppCompat_Button = 2131755404;
 			
-			// aapt resource value: 0x7F10018D
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755405;
-			
-			// aapt resource value: 0x7F10018E
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755406;
-			
-			// aapt resource value: 0x7F10018F
-			public const int Widget_AppCompat_Button_Colored = 2131755407;
-			
-			// aapt resource value: 0x7F100190
-			public const int Widget_AppCompat_Button_Small = 2131755408;
+			// aapt resource value: 0x7F100192
+			public const int Widget_AppCompat_ButtonBar = 2131755410;
 			
 			// aapt resource value: 0x7F100193
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755411;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131755411;
+			
+			// aapt resource value: 0x7F10018D
+			public const int Widget_AppCompat_Button_Borderless = 2131755405;
+			
+			// aapt resource value: 0x7F10018E
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131755406;
+			
+			// aapt resource value: 0x7F10018F
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131755407;
+			
+			// aapt resource value: 0x7F100190
+			public const int Widget_AppCompat_Button_Colored = 2131755408;
+			
+			// aapt resource value: 0x7F100191
+			public const int Widget_AppCompat_Button_Small = 2131755409;
 			
 			// aapt resource value: 0x7F100194
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755412;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131755412;
 			
 			// aapt resource value: 0x7F100195
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131755413;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131755413;
 			
 			// aapt resource value: 0x7F100196
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131755414;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131755414;
 			
 			// aapt resource value: 0x7F100197
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755415;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131755415;
 			
 			// aapt resource value: 0x7F100198
-			public const int Widget_AppCompat_EditText = 2131755416;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131755416;
 			
 			// aapt resource value: 0x7F100199
-			public const int Widget_AppCompat_ImageButton = 2131755417;
+			public const int Widget_AppCompat_EditText = 2131755417;
 			
 			// aapt resource value: 0x7F10019A
-			public const int Widget_AppCompat_Light_ActionBar = 2131755418;
+			public const int Widget_AppCompat_ImageButton = 2131755418;
 			
 			// aapt resource value: 0x7F10019B
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755419;
+			public const int Widget_AppCompat_Light_ActionBar = 2131755419;
 			
 			// aapt resource value: 0x7F10019C
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755420;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131755420;
 			
 			// aapt resource value: 0x7F10019D
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755421;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131755421;
 			
 			// aapt resource value: 0x7F10019E
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755422;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131755422;
 			
 			// aapt resource value: 0x7F10019F
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755423;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131755423;
 			
 			// aapt resource value: 0x7F1001A0
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755424;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131755424;
 			
 			// aapt resource value: 0x7F1001A1
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755425;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131755425;
 			
 			// aapt resource value: 0x7F1001A2
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755426;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131755426;
 			
 			// aapt resource value: 0x7F1001A3
-			public const int Widget_AppCompat_Light_ActionButton = 2131755427;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131755427;
 			
 			// aapt resource value: 0x7F1001A4
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755428;
+			public const int Widget_AppCompat_Light_ActionButton = 2131755428;
 			
 			// aapt resource value: 0x7F1001A5
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755429;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131755429;
 			
 			// aapt resource value: 0x7F1001A6
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755430;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131755430;
 			
 			// aapt resource value: 0x7F1001A7
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755431;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131755431;
 			
 			// aapt resource value: 0x7F1001A8
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755432;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131755432;
 			
 			// aapt resource value: 0x7F1001A9
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755433;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131755433;
 			
 			// aapt resource value: 0x7F1001AA
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755434;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131755434;
 			
 			// aapt resource value: 0x7F1001AB
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755435;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131755435;
 			
 			// aapt resource value: 0x7F1001AC
-			public const int Widget_AppCompat_Light_PopupMenu = 2131755436;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131755436;
 			
 			// aapt resource value: 0x7F1001AD
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755437;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131755437;
 			
 			// aapt resource value: 0x7F1001AE
-			public const int Widget_AppCompat_Light_SearchView = 2131755438;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131755438;
 			
 			// aapt resource value: 0x7F1001AF
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755439;
+			public const int Widget_AppCompat_Light_SearchView = 2131755439;
 			
 			// aapt resource value: 0x7F1001B0
-			public const int Widget_AppCompat_ListMenuView = 2131755440;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131755440;
 			
 			// aapt resource value: 0x7F1001B1
-			public const int Widget_AppCompat_ListPopupWindow = 2131755441;
+			public const int Widget_AppCompat_ListMenuView = 2131755441;
 			
 			// aapt resource value: 0x7F1001B2
-			public const int Widget_AppCompat_ListView = 2131755442;
+			public const int Widget_AppCompat_ListPopupWindow = 2131755442;
 			
 			// aapt resource value: 0x7F1001B3
-			public const int Widget_AppCompat_ListView_DropDown = 2131755443;
+			public const int Widget_AppCompat_ListView = 2131755443;
 			
 			// aapt resource value: 0x7F1001B4
-			public const int Widget_AppCompat_ListView_Menu = 2131755444;
+			public const int Widget_AppCompat_ListView_DropDown = 2131755444;
 			
 			// aapt resource value: 0x7F1001B5
-			public const int Widget_AppCompat_PopupMenu = 2131755445;
+			public const int Widget_AppCompat_ListView_Menu = 2131755445;
 			
 			// aapt resource value: 0x7F1001B6
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755446;
+			public const int Widget_AppCompat_PopupMenu = 2131755446;
 			
 			// aapt resource value: 0x7F1001B7
-			public const int Widget_AppCompat_PopupWindow = 2131755447;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131755447;
 			
 			// aapt resource value: 0x7F1001B8
-			public const int Widget_AppCompat_ProgressBar = 2131755448;
+			public const int Widget_AppCompat_PopupWindow = 2131755448;
 			
 			// aapt resource value: 0x7F1001B9
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755449;
+			public const int Widget_AppCompat_ProgressBar = 2131755449;
 			
 			// aapt resource value: 0x7F1001BA
-			public const int Widget_AppCompat_RatingBar = 2131755450;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131755450;
 			
 			// aapt resource value: 0x7F1001BB
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131755451;
+			public const int Widget_AppCompat_RatingBar = 2131755451;
 			
 			// aapt resource value: 0x7F1001BC
-			public const int Widget_AppCompat_RatingBar_Small = 2131755452;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131755452;
 			
 			// aapt resource value: 0x7F1001BD
-			public const int Widget_AppCompat_SearchView = 2131755453;
+			public const int Widget_AppCompat_RatingBar_Small = 2131755453;
 			
 			// aapt resource value: 0x7F1001BE
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131755454;
+			public const int Widget_AppCompat_SearchView = 2131755454;
 			
 			// aapt resource value: 0x7F1001BF
-			public const int Widget_AppCompat_SeekBar = 2131755455;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131755455;
 			
 			// aapt resource value: 0x7F1001C0
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131755456;
+			public const int Widget_AppCompat_SeekBar = 2131755456;
 			
 			// aapt resource value: 0x7F1001C1
-			public const int Widget_AppCompat_Spinner = 2131755457;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131755457;
 			
 			// aapt resource value: 0x7F1001C2
-			public const int Widget_AppCompat_Spinner_DropDown = 2131755458;
+			public const int Widget_AppCompat_Spinner = 2131755458;
 			
 			// aapt resource value: 0x7F1001C3
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755459;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131755459;
 			
 			// aapt resource value: 0x7F1001C4
-			public const int Widget_AppCompat_Spinner_Underlined = 2131755460;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131755460;
 			
 			// aapt resource value: 0x7F1001C5
-			public const int Widget_AppCompat_TextView = 2131755461;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131755461;
 			
 			// aapt resource value: 0x7F1001C6
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755462;
+			public const int Widget_AppCompat_TextView = 2131755462;
 			
 			// aapt resource value: 0x7F1001C7
-			public const int Widget_AppCompat_Toolbar = 2131755463;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131755463;
 			
 			// aapt resource value: 0x7F1001C8
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755464;
+			public const int Widget_AppCompat_Toolbar = 2131755464;
 			
 			// aapt resource value: 0x7F1001C9
-			public const int Widget_Compat_NotificationActionContainer = 2131755465;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131755465;
 			
 			// aapt resource value: 0x7F1001CA
-			public const int Widget_Compat_NotificationActionText = 2131755466;
+			public const int Widget_Compat_NotificationActionContainer = 2131755466;
 			
 			// aapt resource value: 0x7F1001CB
-			public const int Widget_Design_AppBarLayout = 2131755467;
+			public const int Widget_Compat_NotificationActionText = 2131755467;
 			
 			// aapt resource value: 0x7F1001CC
-			public const int Widget_Design_BottomNavigationView = 2131755468;
+			public const int Widget_Design_AppBarLayout = 2131755468;
 			
 			// aapt resource value: 0x7F1001CD
-			public const int Widget_Design_BottomSheet_Modal = 2131755469;
+			public const int Widget_Design_BottomNavigationView = 2131755469;
 			
 			// aapt resource value: 0x7F1001CE
-			public const int Widget_Design_CollapsingToolbar = 2131755470;
+			public const int Widget_Design_BottomSheet_Modal = 2131755470;
 			
 			// aapt resource value: 0x7F1001CF
-			public const int Widget_Design_FloatingActionButton = 2131755471;
+			public const int Widget_Design_CollapsingToolbar = 2131755471;
 			
 			// aapt resource value: 0x7F1001D0
-			public const int Widget_Design_NavigationView = 2131755472;
+			public const int Widget_Design_FloatingActionButton = 2131755472;
 			
 			// aapt resource value: 0x7F1001D1
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755473;
+			public const int Widget_Design_NavigationView = 2131755473;
 			
 			// aapt resource value: 0x7F1001D2
-			public const int Widget_Design_Snackbar = 2131755474;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131755474;
 			
 			// aapt resource value: 0x7F1001D3
-			public const int Widget_Design_TabLayout = 2131755475;
+			public const int Widget_Design_Snackbar = 2131755475;
 			
 			// aapt resource value: 0x7F1001D4
-			public const int Widget_Design_TextInputLayout = 2131755476;
+			public const int Widget_Design_TabLayout = 2131755476;
 			
 			// aapt resource value: 0x7F1001D5
-			public const int Widget_MaterialComponents_BottomAppBar = 2131755477;
+			public const int Widget_Design_TextInputLayout = 2131755477;
 			
 			// aapt resource value: 0x7F1001D6
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755478;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131755478;
 			
 			// aapt resource value: 0x7F1001D7
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131755479;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131755479;
 			
 			// aapt resource value: 0x7F1001D8
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755480;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131755480;
 			
 			// aapt resource value: 0x7F1001D9
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755481;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131755481;
 			
 			// aapt resource value: 0x7F1001DA
-			public const int Widget_MaterialComponents_Button = 2131755482;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131755482;
 			
 			// aapt resource value: 0x7F1001DB
-			public const int Widget_MaterialComponents_Button_Icon = 2131755483;
+			public const int Widget_MaterialComponents_Button = 2131755483;
 			
 			// aapt resource value: 0x7F1001DC
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755484;
+			public const int Widget_MaterialComponents_Button_Icon = 2131755484;
 			
 			// aapt resource value: 0x7F1001DD
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755485;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131755485;
 			
 			// aapt resource value: 0x7F1001DE
-			public const int Widget_MaterialComponents_Button_TextButton = 2131755486;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131755486;
 			
 			// aapt resource value: 0x7F1001DF
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755487;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131755487;
 			
 			// aapt resource value: 0x7F1001E0
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755488;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131755488;
 			
 			// aapt resource value: 0x7F1001E1
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755489;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131755489;
 			
 			// aapt resource value: 0x7F1001E2
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755490;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131755490;
 			
 			// aapt resource value: 0x7F1001E3
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755491;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131755491;
 			
 			// aapt resource value: 0x7F1001E4
-			public const int Widget_MaterialComponents_CardView = 2131755492;
-			
-			// aapt resource value: 0x7F1001E9
-			public const int Widget_MaterialComponents_ChipGroup = 2131755497;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131755492;
 			
 			// aapt resource value: 0x7F1001E5
-			public const int Widget_MaterialComponents_Chip_Action = 2131755493;
-			
-			// aapt resource value: 0x7F1001E6
-			public const int Widget_MaterialComponents_Chip_Choice = 2131755494;
-			
-			// aapt resource value: 0x7F1001E7
-			public const int Widget_MaterialComponents_Chip_Entry = 2131755495;
-			
-			// aapt resource value: 0x7F1001E8
-			public const int Widget_MaterialComponents_Chip_Filter = 2131755496;
+			public const int Widget_MaterialComponents_CardView = 2131755493;
 			
 			// aapt resource value: 0x7F1001EA
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131755498;
+			public const int Widget_MaterialComponents_ChipGroup = 2131755498;
+			
+			// aapt resource value: 0x7F1001E6
+			public const int Widget_MaterialComponents_Chip_Action = 2131755494;
+			
+			// aapt resource value: 0x7F1001E7
+			public const int Widget_MaterialComponents_Chip_Choice = 2131755495;
+			
+			// aapt resource value: 0x7F1001E8
+			public const int Widget_MaterialComponents_Chip_Entry = 2131755496;
+			
+			// aapt resource value: 0x7F1001E9
+			public const int Widget_MaterialComponents_Chip_Filter = 2131755497;
 			
 			// aapt resource value: 0x7F1001EB
-			public const int Widget_MaterialComponents_NavigationView = 2131755499;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131755499;
 			
 			// aapt resource value: 0x7F1001EC
-			public const int Widget_MaterialComponents_Snackbar = 2131755500;
+			public const int Widget_MaterialComponents_NavigationView = 2131755500;
 			
 			// aapt resource value: 0x7F1001ED
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755501;
+			public const int Widget_MaterialComponents_Snackbar = 2131755501;
 			
 			// aapt resource value: 0x7F1001EE
-			public const int Widget_MaterialComponents_TabLayout = 2131755502;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131755502;
 			
 			// aapt resource value: 0x7F1001EF
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755503;
+			public const int Widget_MaterialComponents_TabLayout = 2131755503;
 			
 			// aapt resource value: 0x7F1001F0
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755504;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131755504;
 			
 			// aapt resource value: 0x7F1001F1
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755505;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131755505;
 			
 			// aapt resource value: 0x7F1001F2
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755506;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131755506;
 			
 			// aapt resource value: 0x7F1001F3
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755507;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131755507;
 			
 			// aapt resource value: 0x7F1001F4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755508;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131755508;
 			
 			// aapt resource value: 0x7F1001F5
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755509;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131755509;
 			
 			// aapt resource value: 0x7F1001F6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755510;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131755510;
 			
 			// aapt resource value: 0x7F1001F7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755511;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131755511;
 			
 			// aapt resource value: 0x7F1001F8
-			public const int Widget_MaterialComponents_Toolbar = 2131755512;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131755512;
 			
 			// aapt resource value: 0x7F1001F9
-			public const int Widget_Support_CoordinatorLayout = 2131755513;
+			public const int Widget_MaterialComponents_Toolbar = 2131755513;
+			
+			// aapt resource value: 0x7F1001FA
+			public const int Widget_Support_CoordinatorLayout = 2131755514;
 			
 			static Style()
 			{
