@@ -26,6 +26,7 @@ namespace MangaSaur.Activities
         [Activity(Theme = "@style/AppTheme")]
         public class HomeActivity : AppCompatActivity //AppCompatActivity?
         {
+            RelativeLayout btnCreatePost;
             Toolbar toolbar;
             FirebaseAuth auth;
             AppDataHelper aph = new AppDataHelper();
@@ -39,6 +40,7 @@ namespace MangaSaur.Activities
                 // Set our view from the "main" layout resource
                 SetContentView(Resource.Layout.home_layout);
                 toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+                btnCreatePost = FindViewById<RelativeLayout>(Resource.Id.btnCreatePost);
 
                 SetSupportActionBar(toolbar);
                 auth = aph.getFireBaseAuth();
@@ -47,9 +49,16 @@ namespace MangaSaur.Activities
 
                 createData();
                 SetUpRecyclerView();
+
+            btnCreatePost.Click += BtnCreatePost_Click;
             }
 
-            public override bool OnOptionsItemSelected(IMenuItem item)
+        private void BtnCreatePost_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(CreatePostActivity));
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
             {
                 int id = item.ItemId;
 
