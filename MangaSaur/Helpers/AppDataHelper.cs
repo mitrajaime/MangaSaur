@@ -11,6 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Android.Graphics;
+using Plugin.Media;
+
 
 namespace MangaSaur.Helpers
 {
@@ -63,5 +66,34 @@ namespace MangaSaur.Helpers
             }
             return mAuth;
         }
+
+        //public Bitmap selectPhoto()
+        //{
+        //    CrossMedia.Current.Initialize();
+
+        //    if (!CrossMedia.Current.IsTakePhotoSupported)
+        //    {
+        //        //AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        //        //builder.SetMessage("File is not supported.");
+
+        //        //builder.SetPositiveButton("OK", (sender, e) =>
+        //        //{
+        //        //    return;
+        //        //});
+         
+        //    }
+
+        //    var file = CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+        //    {
+        //        PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
+        //        CompressionQuality = 30
+        //    });
+
+        //    if (file == null) { return null; }
+
+        //    byte[] imageArray = System.IO.File.ReadAllBytes(file.Path);
+        //    Bitmap bitmap = BitmapFactory.DecodeByteArray(imageArray, 0, imageArray.Length);
+        //    return bitmap;
+        //}
     }
 }

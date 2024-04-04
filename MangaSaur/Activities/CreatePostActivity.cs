@@ -39,7 +39,7 @@ namespace MangaSaur.Activities
             Manifest.Permission.WriteExternalStorage,
             Manifest.Permission.Camera
         };
-
+        
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -61,7 +61,7 @@ namespace MangaSaur.Activities
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.SetMessage("Post Image");
 
-            builder.SetPositiveButton("Take a picture", (sender, e) =>
+            builder.SetPositiveButton("Camera", (sender, e) =>
             {
                 takePhoto();
             });
@@ -107,7 +107,7 @@ namespace MangaSaur.Activities
         {
             await CrossMedia.Current.Initialize();
 
-            if(!CrossMedia.Current.IsTakePhotoSupported)
+            if (!CrossMedia.Current.IsTakePhotoSupported)
             {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.SetMessage("File is not supported.");
