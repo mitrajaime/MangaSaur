@@ -19,7 +19,7 @@
                 android:scaleType="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/gallery_white"/>
+                android:background="@drawable/solid_gray_background"/>
 
             
         </RelativeLayout>
